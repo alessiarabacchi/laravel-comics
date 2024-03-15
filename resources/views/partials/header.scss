@@ -1,0 +1,55 @@
+.header {
+    background-color: #0072ce;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo {
+        margin-left: 1rem;
+        img {
+            height: auto;
+        }
+    }
+
+    .nav-list {
+        display: flex;
+        list-style: none;
+
+        .nav-item {
+            margin-right: 1rem;
+
+            .nav-link {
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .search-form {
+        margin-right: 1rem;
+
+        .search-input {
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .search-button {
+            padding: 0.5rem;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .header-banner {
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}
